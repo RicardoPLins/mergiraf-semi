@@ -994,7 +994,7 @@ impl<'a> AstNode<'a> {
                 let static_sig = temp_sig.to_static();
                 return Some(unsafe { std::mem::transmute(static_sig) });
             }
-
+          
             return None;
         }
 
