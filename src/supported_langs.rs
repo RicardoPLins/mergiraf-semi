@@ -555,6 +555,8 @@ pub static SUPPORTED_LANGUAGES: LazyLock<Vec<LangProfile>> = LazyLock::new(|| {
                 "public_field_definition",
                 "assignment_expression",
                 "import_statement",
+                "function_declaration",
+                "expression_statement",
             ]
             .into_iter()
             .collect(),
